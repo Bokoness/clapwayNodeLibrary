@@ -1,7 +1,7 @@
 # Clapway Node Library
 
-## Instaltion
-
+## Installation
+```npm i @bokoness/clapway```
 ## Express example
 
 ```js
@@ -49,7 +49,8 @@ app.get("/afterPayment", async (req, res) =>{
 
 })
 
-app.listen(8001, () => {
-	console.log(`Server is listening on port 8001`);
+
+app.listen(3000, () => {
+	console.log(`Server is listening on port 3000`);
 });
 
