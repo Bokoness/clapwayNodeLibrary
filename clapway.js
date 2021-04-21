@@ -3,7 +3,7 @@ const axios = require("axios");
 const host = "https://clapway.clap.co.il";
 
 class Clapway {
-	constructor(token) {
+	constructor(token = null) {
 		this.times;
 		this.verified = false;
 		this.token = token;
@@ -47,6 +47,22 @@ class Clapway {
 			}
 			return new Error(e);
 		}
+	}
+
+	/**
+	 * Returns the token
+	 * @returns the token if exists
+	 */
+	getToken() {
+		return this.token;
+	}
+
+	/**
+	 * Sets the token
+	 * @param {*} t the token
+	 */
+	setToken(t) {
+		this.token = t;
 	}
 
 	/**
