@@ -1,23 +1,22 @@
 {
-  "name": "@bokoness/clapway",
-  "version": "1.0.1",
-  "description": "A simple package to communicate with Clapway",
-  "main": "clapway.js",
-  "dependencies": {
-      "axios": "^0.21.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Bokoness/clapwayNodeLibrary.git"
-  },
-  "author": "bokoness",
-  "license": "ISC",
-  "bugs": {
-      "url": "https://github.com/Bokoness/clapwayNodeLibrary/issues"
-  },
-  "homepage": "https://github.com/Bokoness/clapwayNodeLibrary#readme"
+	"name": "@bokoness/clapway",
+	"version": "1.0.1",
+	"description": "A simple package to communicate with Clapway",
+	"main": "clapway.js",
+	"dependencies": {
+		"axios": "^0.21.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Bokoness/clapwayNodeLibrary.git"
+	},
+	"author": "bokoness",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Bokoness/clapwayNodeLibrary/issues"
+	},
+	"homepage": "https://github.com/Bokoness/clapwayNodeLibrary#readme"
 }
